@@ -23,8 +23,9 @@ CXXFLAGS = -std=c++11 -I. -I ./include $(OPT)
 SRC = ./src
 
 # Executables 
-EXECUTABLE = 6 \
-	jianzhi_offer_9
+EXECUTABLE = main \
+	jianzhi_offer_9 \
+	leetcode_155
 
 # output file
 OUTFILE = outfile
@@ -44,6 +45,9 @@ main: $(SRC)/main.cc
 	$(CXX) $(CXXFLAGS) $< -o $@ 
 
 6: $(SRC)/6.cc
+	$(CXX) $(CXXFLAGS) $< -o $@ 
+
+leetcode_155: $(SRC)/leetcode/155.cc
 	$(CXX) $(CXXFLAGS) $< -o $@ 
 
 jianzhi_offer_9: $(SRC)/jianzhi_offer/9.cc
