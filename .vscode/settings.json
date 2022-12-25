@@ -3,7 +3,8 @@
         "*.yaml": "spring-boot-properties-yaml",
         "cstdlib": "cpp",
         "iostream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "*.tcc": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

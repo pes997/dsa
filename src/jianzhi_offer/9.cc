@@ -2,7 +2,7 @@
  * 用两个栈实现队列
  */
 
-#include "include/dependency.h"
+#include "dependency.h"
 
 class CQueue {
 

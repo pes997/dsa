@@ -1,4 +1,4 @@
-#include "include/dependency.h"
+#include "dependency.h"
 
 using namespace std;
 
